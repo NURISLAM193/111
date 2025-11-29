@@ -1,0 +1,57 @@
+@font-face {
+    font-family: sen;
+    src: url(/foons/Sen-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: sen;
+    src: url(/foons/Sen-ExtraBold.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: sen;
+    src: url(/foons/Sen-Medium.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: sen;
+    src: url(/foons/Sen-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: sen;
+    src: url(/foons/Sen-SemiBold.ttf);
+    font-weight: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --heading_1: font-size: 78px;
+     --heading_2: font-size: 55px;
+      --heading_3: font-size: 24px;
+       --heading_4: font-size: 18px;
+        --heading_5: font-size: 16px;
+        --color--base: #000;
+        --color--text: #fff;
+        --color--leval-1: #181823;
+        --color--primary: #5221e6;
+        --color--light-gray: #deecf9;
+        --color--Dark-gray: #C7E0F4;
+        --color--Green-Accent: #3CC74E;
+        --color--Pink-Accent: #E95D90;
+        --color--Peach-Accent:#FFF3E4;
+        --color--Violet-Accent:#FBE4FF;
+
+
+
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
+h1{
+    font-size: var(--heading_1);
+}
